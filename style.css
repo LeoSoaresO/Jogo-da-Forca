@@ -1,0 +1,82 @@
+
+body {
+	min-height:100%;
+	margin: 0;
+	padding: 0;
+	background-color: #FFF;
+	background-image: url("imagens/fundo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center; }
+h1 {
+    padding: 0px 0px;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    font-family: 'Gloria Hallelujah', cursive;
+    }
+div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.escolha-palavra-container {
+    display: none;
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.escolha-palavra-container h2 {
+    width: 100%;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+}
+
+.escolha-palavra-container input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid #333;
+    width: 100%;
+    max-width: 250px;
+    height: 30px;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #666;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding: 2px 20px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.escolha-palavra-container input.invalid {
+    border-color: #D86666;
+}
+.btn {
+	width: 90%;
+	min-width: 200px;
+	max-width: 500px;
+	background: #088CD0;
+	color: #FFF;
+	padding: 20px 0px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2em;
+	outline: none;
+	font-family: 'Cabin', sans-serif;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in;
+	font-weight: bold;
+	-webkit-box-shadow: 0px 6px 8px -4px rgba(0,0,0,0.54);
+	-moz-box-shadow: 0px 6px 8px -4px rgba(0,0,0,0.54);
+	box-shadow: 0px 6px 8px -4px rgba(0,0,0,0.54);
+}
