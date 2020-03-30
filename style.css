@@ -4,7 +4,6 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #FFF;
-	background-image: url("imagens/fundo.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -76,7 +75,5 @@ div {
 	text-transform: uppercase;
 	transition: all 0.2s ease-in;
 	font-weight: bold;
-	-webkit-box-shadow: 0px 6px 8px -4px rgba(0,0,0,0.54);
-	-moz-box-shadow: 0px 6px 8px -4px rgba(0,0,0,0.54);
 	box-shadow: 0px 6px 8px -4px rgba(0,0,0,0.54);
 }

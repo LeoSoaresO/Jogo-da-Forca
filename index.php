@@ -10,17 +10,16 @@
 </head>
 <body>
     <h1>Jogo da Forca</h1>
-    <div class="escolha-palavra-container" style="display: block;">
+    <form action="start.php" method="POST" class="escolha-palavra-container" style="display: block;">
 		<h2>Digite abaixo Seu nome: </h2>	
 		
-	<input type="text" type="text" id="palavra-input" maxlength="40"/>
-		<div class="btn-jogar-container btn-jogar">
-			<button id="btn-jogar" class="btn">
-				Começar <i class="fa fa-play" aria-hidden="true"></i>
-			</button>
+		<input type="text" type="text" id="palavra-input" maxlength="40"/>
+		<div id="app" class="btn-jogar-container btn-jogar">
+			<button type="submit" id="btn-jogar" class="btn" onclick="sla.php">
+				Começar <i class="fa fa-play" aria-hidden="true"></i></button>
 		</div>
-
-	</div>
-	<script href="js.js"></script>
+	</form>
+	
 </body>
+<script src="main.js"></script>
 </html>
